@@ -9,8 +9,21 @@ Currently, two official plugins are available:
 
 
 ```bash
-
 	
 npm create vite@latest my-react-app -- --template react
 
+
+npm install
+
+# add package-lock.json to .gitignore
+
+
+#installo i pacchetto che mi servono esempio bootstrap
+
+npm install bootstrap
+
+#per usare bootstrap lo devo importare
+#in main.jsx aggiungo
+
+import "bootstrap/dist/css/bootstrap.min.css";
 ```
